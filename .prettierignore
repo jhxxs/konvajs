@@ -1,0 +1,10 @@
+# Prettier Ignore folders
+dist
+.git
+.husky
+**/min/*.js
+public
+
+# ingore html files
+index.html
+

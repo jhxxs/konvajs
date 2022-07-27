@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "naumovs.color-highlight",
+    "voorjaar.windicss-intellisense",
+    "esbenp.prettier-vscode",
+    "irongeek.vscode-env",
+    "adam-bender.commit-message-editor"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+	"name": "konvajs",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"dev": "vue-cli-service serve",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"core-js": "^3.8.3",
+		"dayjs": "^1.11.4",
+		"konva": "^8.3.10",
+		"lodash": "^4.17.21",
+		"vue": "^2.7.8",
+		"vue-konva": "^2.1.7",
+		"windicss": "^3.5.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.12.16",
+		"@types/lodash": "^4.14.182",
+		"@vue/cli-plugin-babel": "~5.0.0",
+		"@vue/cli-plugin-router": "~5.0.0",
+		"@vue/cli-plugin-typescript": "~5.0.0",
+		"@vue/cli-plugin-vuex": "~5.0.0",
+		"@vue/cli-service": "~5.0.0",
+		"copy-webpack-plugin": "^11.0.0",
+		"husky": "^7.0.4",
+		"less": "^4.1.3",
+		"less-loader": "^11.0.0",
+		"lint-staged": "^12.3.5",
+		"prettier": "^2.7.1",
+		"sass": "^1.32.7",
+		"sass-loader": "^12.0.0",
+		"typescript": "~4.5.5",
+		"unplugin-auto-import": "^0.10.0",
+		"vue-cli-plugin-windicss": "~1.1.6"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": [
+			"plugin:vue/essential",
+			"@vue/standard"
+		],
+		"parserOptions": {
+			"parser": "@babel/eslint-parser"
+		},
+		"rules": {}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	],
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	}
+}
